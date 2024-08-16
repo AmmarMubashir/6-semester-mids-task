@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!--  -->
+    <title>Cover Page</title>
+    <script defer src="/script.js"></script>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="md:w-[70%] mx-auto border-[2px] border-black mt-3 p-3 xs:bg-red-500"
+    >
+      <div>
+        <p>
+          <span class="font-bold"
+            >Suprentident/Lab Incharge Name and Signature:</span
+          ><input
+            type="text"
+            id="SuperintendentSignature"
+            class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+          />
+        </p>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-2 justify-between mt-3">
+        <p>
+          Sr. No. of Extra Sheets used
+          <input
+            type="text"
+            id="ExtraSheetsNo"
+            class="bg-transparent text-black border-b w-[150px] border-black border-dotted px-1 focus:outline-none"
+          />
+        </p>
+        <img
+          src="/images/uetLogo.png"
+          alt="logo"
+          class="rounded-full w-[150px] h-[150px] mx-auto"
+        />
+        <p>
+          Answer Book No.
+          <input
+            type="text"
+            id="AnswerBookNo"
+            class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+          />
+        </p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-xl sm:text-4xl font-bold">
+          University of Engineering and Technology <br />
+          Taxila
+        </h1>
+        <p class="underline text-xl">Practical Examination</p>
+        <p class="font-bold text-xl mt-3">
+          Department
+          <input
+            type="text"
+            id="Department"
+            class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+          />
+        </p>
+      </div>
+      <div>
+        <form action="" class="flex flex-col gap-3 md:w-[70%] text-md">
+          <div>
+            <p class="font-bold">
+              BSc Practical Examination in Fall/Spring/Summer Semester 2k
+              <input
+                type="text"
+                id="SemesterYear"
+                class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+              />
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <p>
+              Regd. No
+              <input
+                type="text"
+                id="RegdNo"
+                class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+              />
+            </p>
+            <p>
+              Name:
+              <input
+                type="text"
+                id="Name"
+                class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+              />
+            </p>
+          </div>
+          <div class="flex justify-between">
+            <p>
+              Subject:
+              <input
+                type="text"
+                id="Subject"
+                class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+              />
+            </p>
+            <p>
+              Date:
+              <input
+                type="date"
+                id="Date"
+                class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+              />
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="text-center mt-3">
+        <h2 class="underline font-bold">INSTRUCTIONS FOR THE CANDIDATES</h2>
+      </div>
+      <div>
+        <p class="italic sm:text-lg">
+          The Answer Book should not be used for any purpose other than writing
+          answers to questions as required in the Examination. Illegal use of
+          answer book would lead to prosecution
+        </p>
+      </div>
+      <div class="text-center text-lg">
+        <p class="font-bold">[This answer book contains Ten(10) pages]</p>
+      </div>
+      <div class="sm:flex gap-3 justify-between">
+        <div>
+          <ol class="ml-3 list-decimal">
+            <li>
+              Begin writing your answer from the back of the Title Page of the
+              Answer Book, this page must not be blank in any case.
+            </li>
+            <li class="font-bold">Write on both sides of each leaf.</li>
+            <li>
+              Candidates guilty of making appeals to the Course Teacher (s) in
+              their Answer Books will entail the penalty of the Answer Book
+              through which such appeal is made.
+            </li>
+            <li>
+              No Answer Book or paper of any kind is to be taken in or removed
+              from Examination Hall/Room except the question paper (if
+              required).
+            </li>
+            <li>No leaf from the Answer Book is to be torn off.</li>
+            <li>
+              A candidate creating disturbance during the Examination or
+              misbehaving in or around the Examination Hall/Room shall be
+              expelled therefrom and shall be liable to disciplinary action.
+            </li>
+            <li>
+              This Answer Book must be returned to the Superintendent even if no
+              question has been answered.
+            </li>
+            <li>
+              Candidates are not permitted to leave the Examination Hall/Room
+              until the expiry of one hour after the distribution of the
+              Question Paper.
+            </li>
+            <li>
+              Candidates found using
+              <span class="font-bold">UNFAIR MEANS</span> shall be liable to
+              disciplinary action.
+            </li>
+            <li>
+              Use of programmable calculator is prohibited unless specifically
+              allowed by the Course Teacher and clearly mentioned in the
+              Question Paper.
+            </li>
+            <li>
+              Do not use marker/ballpoint of any other color except Blue or
+              Black.
+            </li>
+            <li>
+              Use of white fluid and ink remover is strictly prohibited which
+              can result into the cancellation of paper.
+            </li>
+            <li class="font-bold">
+              Mobile phone is not allowed in the Examination Hall/Room/Lab.
+            </li>
+          </ol>
+        </div>
+        <div class="block">
+          <table
+            class="border-[2px] border-solid border-black mx-auto w-[90%] text-center"
+          >
+            <tr>
+              <th class="border-[2px] border-black">Question No.</th>
+              <th class="border-[2px] border-black">Marks Obtained</th>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">1</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark1"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">2</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark2"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">3</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark3"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">4</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark4"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">5</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark5"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">6</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark6"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">7</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark7"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">8</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark8"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">9</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark9"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">10</td>
+              <td class="border-[2px] border-black">
+                <input
+                  type="text"
+                  id="Mark10"
+                  class="bg-transparent text-black w-[70px] border-black px-1 focus:outline-none"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="border-[2px] border-black">Total</td>
+              <td class="border-[2px] border-black"></td>
+            </tr>
+          </table>
+
+          <p class="font-bold">Max. Marks ____</p>
+        </div>
+      </div>
+      <div class="font-bold text-lg ml-5">
+        <h2>
+          Name(s) & signature of the Internal Examiner/Course Teacher (s)
+          <input
+            type="text"
+            id="CourseTeacher"
+            class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+          />
+        </h2>
+        <h2>
+          Name(s) & signature of the External Examiner/Neutral Teacher (s)
+          <input
+            type="text"
+            id="NeutralTeacher"
+            class="bg-transparent text-black border-b-[2px] w-[150px] border-black border-dotted px-1 focus:outline-none translate-y-[-5px]"
+          />
+        </h2>
+      </div>
+      <div>
+        <p class="text-center">(In case of End Semester Examination)</p>
+      </div>
+    </div>
+    <button id="submit">Click</button>
+  </body>
+</html>
